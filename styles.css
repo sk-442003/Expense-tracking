@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+nav a {
+    margin-left: 25px;
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.user {
+    margin-left: 25px;
+    color: #7f8c8d;
+}
+
+.main-content {
+    display: flex;
+    padding: 30px;
+}
+
+aside {
+    width: 200px;
+    padding: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+aside ul li.active a {
+    color: #3498db;
+    font-weight: bold;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.chart-section {
+    position: relative;
+}
+
+.timeframe {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.timeframe button {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.right-sidebar {
+    width: 300px;
+    padding: 20px;
+}
+
+.transactions {
+    list-style: none;
+    padding: 0;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#expense-chart {
+    max-width: 100%;
+    height: 300px;
+}
